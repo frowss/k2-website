@@ -1,0 +1,124 @@
+.main-map-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(darkblue, rgb(17, 17, 195));
+}
+
+.mountain-map-info {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 90vh;
+  border: 2px solid black;
+}
+
+.mountain-map-info p {
+  border: 1px solid black;
+  font-size: 60px;
+  margin: 0;
+}
+
+.route-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  height: 100%;
+}
+
+.route-info > div {
+  width: fit-content;
+  padding: 5% 6%;
+  margin-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.route-a {
+  background-color: red;
+}
+
+.route-b {
+  background-color: yellow;
+}
+
+.route-c {
+  background-color: lime;
+}
+
+.route-d {
+  background-color: purple;
+}
+
+.route-e {
+  background-color: blue;
+}
+
+.route-f {
+  background-color: orange;
+}
+
+.mountain-map {
+  height: 80vh;
+  width: 60vw;
+  object-fit: scale-down;
+}
+
+.mountain-map-image {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.other-container {
+  display: flex;
+  width: 100%;
+  height: 410px;
+}
+
+.map-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  margin: 30px;
+}
+
+.map-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  margin: 30px;
+  margin-left: 0px;
+}
+
+.map-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 350px;
+  margin: 30px;
+  margin-left: 0px;
+}
+
+.info-1,
+.info-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 2px solid black;
+}
+
+.info-1 {
+  margin-bottom: 20px;
+}
