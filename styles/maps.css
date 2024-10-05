@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 20px;
+}
+
+.title-section h1 {
+  font-size: 6rem;
+  font-weight: lighter;
+  font-family: OT_Neue_Montreal, sans-serif;
+  margin-bottom: 30px;
+}
+
+.title-section h2 {
+  font-weight: lighter;
+  font-family: 'General Sans', sans-serif;
+  font-style: italic;
+}
+
+body > h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: lighter;
+  font-family: OT_Neue_Montreal, sans-serif;
+  margin: 20px;
+}
+
+.main-routes-container {
+  display: flex;
+  height: 500px;
+  margin: auto 50px;
+  gap: 20px;
+}
+
+.main-routes-info {
+  flex: 1;
+  background: rgb(104, 104, 104);
+  color: white;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-family: 'General Sans', sans-serif;
+  line-height: 30px;
+}
+
+.main-routes-container img {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  object-fit: cover;
+}
